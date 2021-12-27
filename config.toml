@@ -1,0 +1,46 @@
+baseURL = "https://alexandresauner.fr"
+title = "Alexandre Sauner"
+theme = "gokarna"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
+
+pygmentsStyle = "monokai"
+
+[params]
+  footer = "Alexandre Sauner"
+  description = "3nd Year Computer Science Student at Epitech Strasbourg"
+  avatarURL = "/images/avatar.jpg"
+  avatarSize = "size-m"
+  customHeadHTML = """
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/katex.min.css" integrity="sha384-6LkG2wmY8FK9E0vU9OOr8UvLwsaqUg9SETfpq4uTCN1agNe8HRdE9ABlk+fVx6gZ" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/katex.min.js" integrity="sha384-31El76TwmbHj4rF9DyLsygbq6xoIobG0W+jqXim+a3dU9W53tdH3A/ngRPxOzzaB" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+  """
+  socialIcons = [
+    {name = "github", url = "https://github.com/alexandre-snr"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/alexandre-sauner/"},
+  ]
+  metaKeywords = ["blog", "alexandre", "sauner", "developer", "student", "epitech", "trackit"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+
+  [[menu.main]]
+    identifier = "rss"
+    pre = "<span data-feather='rss'></span>"
+    url = "/index.xml"
+    weight = 3
