@@ -10,7 +10,7 @@ pygmentsStyle = "monokai"
 
 [params]
   footer = "Alexandre Sauner"
-  description = "3nd Year Computer Science Student at Epitech Strasbourg"
+  description = "3rd Year Computer Science Student at Epitech Strasbourg"
   avatarURL = "/images/avatar.jpg"
   avatarSize = "size-m"
   customHeadHTML = """
