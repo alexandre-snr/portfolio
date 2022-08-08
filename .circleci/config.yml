@@ -1,0 +1,28 @@
+version: 2.1
+orbs:
+  hugo: circleci/hugo@0.2
+  aws-cli: circleci/aws-cli@3.1.1
+jobs:
+  deploy:
+    docker:
+      - image: cimg/base:2021.04
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: workspace
+      - aws-cli/setup:
+          profile-name: default
+      - run: aws s3 sync workspace/public s3://$OUTPUT_BUCKET
+      - run: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION --paths "/*"
+workflows:
+  main:
+    jobs:
+      - hugo/build:
+          source: ./
+          version: '0.101.0'
+      - deploy:
+          filters:
+            branches:
+              only: master
+          requires:
+            - hugo/build
