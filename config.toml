@@ -8,9 +8,16 @@ enableRobotsTXT = true
 
 pygmentsStyle = "monokai"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
   footer = "Alexandre Sauner"
-  description = "3rd Year Computer Science Student at Epitech Strasbourg"
+  description = """
+  4th Year Computer Science Student at Epitech Strasbourg<br/>
+  Currently abroad at San Francisco State University<br/>
+  Certified AWS developer
+  """
   avatarURL = "/images/avatar.jpg"
   avatarSize = "size-m"
   customHeadHTML = """
