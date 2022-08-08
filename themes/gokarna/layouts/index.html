@@ -6,7 +6,7 @@
         {{ end }}
     </div>
     <h1>{{ .Site.Title }}</h1>
-    <h3>{{ with .Site.Params.Description }} {{ . |  markdownify | safeHTML }}{{ end }}</h3>
+    <p>{{ with .Site.Params.Description }} {{ . |  markdownify | safeHTML }}{{ end }}</p>
 </section>
 
 <div class="flex-break"></div>

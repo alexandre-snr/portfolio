@@ -14,9 +14,10 @@ unsafe = true
 [params]
   footer = "Alexandre Sauner"
   description = """
-  4th Year Computer Science Student at Epitech Strasbourg<br/>
+  <b>4th Year Computer Science Student at Epitech Strasbourg</b><br/>
   Currently abroad at San Francisco State University<br/>
-  Certified AWS developer
+  Software Engineer at <a href="https://trackit.io">TrackIt</a><br/>
+  Certified <a href="https://www.credly.com/badges/92da7860-d60f-4567-8fd7-b0d14a4f4535">AWS developer</a>
   """
   avatarURL = "/images/avatar.jpg"
   avatarSize = "size-m"
