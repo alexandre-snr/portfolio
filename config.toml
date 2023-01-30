@@ -17,7 +17,7 @@ unsafe = true
   <b>4th Year Computer Science Student at Epitech Strasbourg</b><br/>
   Currently abroad at San Francisco State University<br/>
   Software Engineer at <a href="https://trackit.io">TrackIt</a><br/>
-  Certified <a href="https://www.credly.com/badges/92da7860-d60f-4567-8fd7-b0d14a4f4535">AWS developer</a>
+  <a href="https://www.credly.com/badges/92da7860-d60f-4567-8fd7-b0d14a4f4535">AWS Certified Developer – Associate</a> - <a href="https://www.credly.com/badges/77012b92-b489-46a3-b85d-f1b38a0d2eba">AWS Certified Database – Specialty</a>
   """
   avatarURL = "/images/avatar.jpg"
   avatarSize = "size-m"
