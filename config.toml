@@ -14,10 +14,8 @@ unsafe = true
 [params]
   footer = "Alexandre Sauner"
   description = """
-  <b>4th Year Computer Science Student at Epitech Strasbourg</b><br/>
-  Currently abroad at San Francisco State University<br/>
+  <b>5th Year Computer Science Student at Epitech Strasbourg</b><br/>
   Software Engineer at <a href="https://trackit.io">TrackIt</a><br/>
-  <a href="https://www.credly.com/badges/92da7860-d60f-4567-8fd7-b0d14a4f4535">AWS Certified Developer – Associate</a> - <a href="https://www.credly.com/badges/77012b92-b489-46a3-b85d-f1b38a0d2eba">AWS Certified Database – Specialty</a>
   """
   avatarURL = "/images/avatar.jpg"
   avatarSize = "size-m"
@@ -35,10 +33,10 @@ unsafe = true
   metaKeywords = ["blog", "alexandre", "sauner", "developer", "student", "epitech", "trackit"]
 
 [menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
+#  [[menu.main]]
+#    name = "Home"
+#    url = "/"
+#    weight = 1
 
 
 #  [[menu.main]]
@@ -47,8 +45,8 @@ unsafe = true
 #    weight = 2
 
 
-  [[menu.main]]
-    identifier = "rss"
-    pre = "<span data-feather='rss'></span>"
-    url = "/index.xml"
-    weight = 3
+#  [[menu.main]]
+#    identifier = "rss"
+#    pre = "<span data-feather='rss'></span>"
+#    url = "/index.xml"
+#    weight = 3
