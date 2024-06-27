@@ -14,8 +14,7 @@ unsafe = true
 [params]
   footer = "Alexandre Sauner"
   description = """
-  <b>5th Year Computer Science Student at Epitech Strasbourg</b><br/>
-  Software Engineer at <a href="https://trackit.io">TrackIt</a><br/>
+  <b>Building cloud-native software at <a href="https://trackit.io">TrackIt</a> 🚀</b>
   """
   avatarURL = "/images/avatar.jpg"
   avatarSize = "size-m"
